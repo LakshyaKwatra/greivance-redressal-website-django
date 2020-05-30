@@ -5,19 +5,7 @@ Django version: 2.0.2.
 # Instructions to Run
 - Run the following command in the command line in the project directory 
 > python manage.py runserver
-# User Details
-- Superuser:
-  - username: testing
-  - password: esd@telwap
-  - All other users have password: testing123
-
-- Current Users:
-  - user1: normal access
-  - user2: staff level access
-  - user3: manager level access
-  - user4: support staff level access
-  - testing: superuser
-#User Level Description
+# User Level Description
 There are 5 levels of users:
 1. **Citizen**
   - Can login
@@ -39,3 +27,16 @@ There are 5 levels of users:
 
 5. **Superuser**
   - All website access and admin page
+
+# User Details
+- Superuser:
+  - username: testing
+  - password: esd@telwap
+  - All other users have password: testing123
+
+- Current Users:
+  - user1: normal access
+  - user2: staff level access
+  - user3: manager level access
+  - user4: support staff level access
+  - testing: superuser
